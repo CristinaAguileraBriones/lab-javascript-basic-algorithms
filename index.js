@@ -45,3 +45,14 @@ let longText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc co
 
 // numero de palabras = numero de espacios + 1
 // tengo una mesa roja. = espacio1 + espacio2 + 1 = 3 
+
+// de acuerdo al feedback en Student Portal usamos split y una variable nueva para contar las palabras:
+
+/*
+let totalWords = 0
+longText.split('').forEach(word => {
+    totalWords++
+});
+
+console.log(`number of words: ${totalWords}`)
+*/
