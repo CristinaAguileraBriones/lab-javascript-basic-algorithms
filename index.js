@@ -36,31 +36,3 @@ let charactertoAdd = driverCapitalLetter[i]
 }
 
 console.log(h1Spaced)
-
-//Const character =  driverCaptialLetters[I]
-//charactertoAdd += character + ‘ (space)’
- //charactertoAdd = driverCapitalLetter[i]
-
-/////
-
-// let encodedString = 'bflkdjbod??a***fjoi1! !wwkn* Ooij!li?j'
-
-// let secretCode = ''
-
-// for (let i = 0; i < encodedString.length; i++) {
-
-//     let characterToAdd = encodedString[i]
-
-//     if (characterToAdd === '*') {
-//         characterToAdd = 'a'
-//     } else if (characterToAdd === '!' || characterToAdd === '?') {
-//         // characterToAdd = '' 
-//         continue; // reserved word; it forces the loop to stop the iteration, skip it and continue 
-//     } else if (characterToAdd === ' ') {
-//         break // reserved word; it stops the loop
-//     }
-
-//     secretCode += characterToAdd 
-// }
-
-// console.log(secretCode)
