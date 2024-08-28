@@ -23,39 +23,44 @@ if(hacker1.length>hacker2.length){
 
 // Iteration 3: Loops
 
-const driverCapitalLetter = hacker1.toUpperCase()
+let driverCapitalLetter = hacker1.toUpperCase()
 
-let charactertoAdd = " " 
+let h1Spaced = ''
 
 for(let i=0; i<driverCapitalLetter.length; i++){
 
-  //Const character =  driverCaptialLetters[I]
+let charactertoAdd = driverCapitalLetter[i]
 
+ h1Spaced += charactertoAdd + ' '
+
+}
+
+console.log(h1Spaced)
+
+//Const character =  driverCaptialLetters[I]
 //charactertoAdd += character + ‘ (space)’
+ //charactertoAdd = driverCapitalLetter[i]
 
-    
-   //charactertoAdd = driverCapitalLetter[i]
+/////
 
-    
-}
-console.log(charactertoAdd)
+// let encodedString = 'bflkdjbod??a***fjoi1! !wwkn* Ooij!li?j'
 
-/* let secretCode = ''
+// let secretCode = ''
 
-for (let i = 0; i < encodedString.length; i++) {
+// for (let i = 0; i < encodedString.length; i++) {
 
-    let characterToAdd = encodedString[i]
+//     let characterToAdd = encodedString[i]
 
-    if (characterToAdd === '*') {
-        characterToAdd = 'a'
-    } else if (characterToAdd === '!' || characterToAdd === '?') {
-        // characterToAdd = '' 
-        continue; // reserved word; it forces the loop to stop the iteration, skip it and continue 
-    } else if (characterToAdd === ' ') {
-        break // reserved word; it stops the loop
-    }
+//     if (characterToAdd === '*') {
+//         characterToAdd = 'a'
+//     } else if (characterToAdd === '!' || characterToAdd === '?') {
+//         // characterToAdd = '' 
+//         continue; // reserved word; it forces the loop to stop the iteration, skip it and continue 
+//     } else if (characterToAdd === ' ') {
+//         break // reserved word; it stops the loop
+//     }
 
-    secretCode += characterToAdd 
-}
+//     secretCode += characterToAdd 
+// }
 
-console.log(secretCode)*/
+// console.log(secretCode)
